@@ -17,6 +17,7 @@
     <!-- Custom styles for our template -->
     <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/pymi.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,10 +31,10 @@
 <div class="navbar navbar-inverse navbar-fixed-top headroom">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
-                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template">
-                Python Milano</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Python Milano" />
+                Python Milano
+            </a>
         </div>
     </div>
 </div>
@@ -43,21 +44,23 @@
         <div class="row">
             <h1 class="lead">Sviluppatori e Appassionati di Python a Milano</h1>
 
-            <p class="tagline"><i>"""La pyBissa de Milan"""</i></p>
+            <p class="tagline"><i id="motto">"""La pyBissa de Milan"""</i></p>
         </div>
     </div>
 </header>
 
-<div class="container text-center" style="position:relative">
+<div class="container text-center" id="next-meetup">
     <div id="calendar">
         <div id="month">OTTOBRE</div>
         <div id="day">22</div>
     </div>
-    <h2 class="thin">Prossimo Meetup</h2>
-    <p class="text-muted">
-        <strong>Genropy - Tool di Migrazione e package editor.</strong> <br><br>
-        <a href="http://www.meetup.com/it/Python-Milano/events/225798285/" class="btn-social btn-outline">Partecipa!</a>
-    </p>
+    <div id="meetup">
+        <h2 class="thin">Prossimo Meetup</h2>
+        <p class="text-muted">
+            <strong>Genropy - Tool di Migrazione e package editor.</strong> <br><br>
+            <a href="http://www.meetup.com/it/Python-Milano/events/225798285/" class="btn btn-action btn-lg">Partecipa!</a>
+        </p>
+    </div>
 </div>
 
 <div class="jumbotron top-space">
@@ -69,7 +72,8 @@
 
             <div class="col-md-3 col-sm-6 highlight">
                 <div class="h-caption">
-                    <h4><i class="fa fa-group fa-5"></i>
+                    <h4>
+                        <i class="fa fa-group fa-5"></i>
                         <a href="http://www.meetup.com/it/Python-Milano/" class="btn-social btn-outline">Meetup</a>
                     </h4>
                 </div>
@@ -82,7 +86,8 @@
 
             <div class="col-md-3 col-sm-6 highlight">
                 <div class="h-caption">
-                    <h4><i class="fa fa-trello fa-5"></i>
+                    <h4>
+                        <i class="fa fa-trello fa-5"></i>
                         <a href="https://trello.com/b/0BEDDL3K/argomenti-incontri"
                            class="btn-social btn-outline">Trello</a>
                     </h4>
@@ -126,7 +131,8 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 highlight">
                 <div class="h-caption">
-                    <h4><i class="fa fa-github fa-5"></i>
+                    <h4>
+                        <i class="fa fa-github fa-5"></i>
                         <a href="https://github.com/PythonMilano" class="btn-social btn-outline">GitHub</a>
                     </h4>
                 </div>
@@ -162,6 +168,7 @@
 <script src="assets/js/headroom.min.js"></script>
 <script src="assets/js/jQuery.headroom.min.js"></script>
 <script src="assets/js/template.js"></script>
+<script src="assets/js/motto.js"></script>
 
 </body>
 </html>
