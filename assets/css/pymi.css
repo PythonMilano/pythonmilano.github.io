@@ -37,3 +37,10 @@
     float: left;
     margin: 10px;
 }
+
+#sponsor img {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 80px;
+}
