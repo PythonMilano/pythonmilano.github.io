@@ -28,3 +28,14 @@
     font-size: 44px;
 }
 
+@media (max-width: 512px) {
+    #next-meetup {
+        width: 100%;
+        text-align: center;
+    }
+    #meetup, 
+    #calendar {
+        display: block;
+    }
+}
+
