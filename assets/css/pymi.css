@@ -44,3 +44,13 @@
     max-width: 150px; 
     max-height: 80px;
 }
+
+@media (max-width: 512px) {
+    #next-meetup {
+        width: 100%;
+        text-align: center;
+    }
+    #meetup, 
+    #calendar {
+        display: block;
+    }
