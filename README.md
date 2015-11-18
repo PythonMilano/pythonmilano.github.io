@@ -1,6 +1,6 @@
 # pythonmilano.github.io
 
-Dominio (thanks to @zanza00) [pythonmilano.xyz](Python Milano)
+Dominio (thanks to @zanza00) [pythonmilano.xyz](http://pythonmilano.xyz/)
 
 ---
 
