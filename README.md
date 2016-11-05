@@ -4,10 +4,4 @@ Dominio (thanks to @zanza00) [pythonmilano.xyz](http://pythonmilano.xyz/)
 
 ---
 
-Branch ```motto```: da utilizzare per inserire la proposta di motto da mostrare nella pagina. Aggiornare l'array ```motti```.
-
-Branch ```next-event```: da utilizzare per aggiornare il master con il prossimo evento in programma.
-
----
-
 Pull Request Are Welcome! :-)
