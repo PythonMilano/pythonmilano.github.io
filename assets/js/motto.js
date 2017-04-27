@@ -3,7 +3,7 @@ $(document).ready(function(){
         "La pyBissa de Milan",
         "Il serpent[1] di Milano",
         "Python Milano's Flying Cathedral",
-        "Il secondo serpente di Milano, dopo il biscione",
+        "Il secondo serpente di Milano, dopo il biscione"
         ];
 
     var motto = motti[Math.floor(Math.random() * motti.length)];
