@@ -7,7 +7,7 @@
 
 #calendar {
     float:left;
-    margin: 35px 15px 15px 15px;
+    margin: 10px 15px 15px 15px;
     font-weight: bold;
     border: 2px solid black;
 }
@@ -28,3 +28,33 @@
     font-size: 44px;
 }
 
+/* Sponsor */
+#sponsor {
+    list-style: none;
+}
+
+#sponsor li {
+    float: left;
+    margin: 10px;
+}
+
+#sponsor img {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 80px;
+}
+
+h2.thin {
+	margin-top: 10px;
+}
+
+@media (max-width: 512px) {
+    #next-meetup {
+        width: 100%;
+        text-align: center;
+    }
+    #meetup,
+    #calendar {
+        display: block;
+    }
