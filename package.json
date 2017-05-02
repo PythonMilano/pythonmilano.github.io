@@ -1,0 +1,23 @@
+{
+  "name": "pymi-rebranding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-sass -wr assets/sass -o assets/css | live-server --ignore=assets/sass,.git/,.idea/ ./",
+    "build" : "node-sass -x assets/sass -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://zanza00@bitbucket.org/cstrap/pymi-rebranding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/cstrap/pymi-rebranding#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.5.1"
+  }
+}
