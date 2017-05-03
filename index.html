@@ -1,274 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-
-    <title>Python Milano - La community Python di Milano</title>
-
-    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
-
-    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <!-- Custom styles for our template -->
-    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/pymi.css">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="assets/js/html5shiv.js"></script>
-    <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <title>PyMi - La community Python di Milano e dintorni</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="shortcut icon" type="image/png" href="assets/img/pymi_favicon.png" />
 </head>
 
-<body class="home">
+<body>
 
-<div class="navbar navbar-inverse navbar-fixed-top headroom">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" alt="Python Milano" />
-                Python Milano
-            </a>
-        </div>
-    </div>
-</div>
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="container">
+            <li><a href="#top">PyMi</a></li>
+            <li><a href="#next-meetup">Meetup</a></li>
+            <li><a href="#links">Contatti</a></li>
+            <li><a href="#sponsor">Supporter</a></li>
+        </ul>
+    </nav>
 
-<header id="head">
-    <div class="container">
-        <div class="row">
-            <h1 class="lead">Sviluppatori e Appassionati di Python a Milano</h1>
-
-            <p class="tagline"><i id="motto">"""La pyBissa de Milan"""</i></p>
-
-            <p><a class="btn btn-default btn-lg" role="button" href="https://github.com/PythonMilano/logo">AAA Logo Cercasi!!!</a></p>
-        </div>
-    </div>
-</header>
-
-<div class="container text-center" id="next-meetup">
-	<h4><i>>>> "Prossimo Meetup"</i></h4>
-    <div id="calendar">
-        <div id="month">NA</div>
-        <div id="day"> NA </div>
-    </div>
-    <div id="meetup">
-        <h2 id="topic" class="thin">TBA</h2>
-        <p class="text-muted">
-            <a id="meetup_link" href="https://www.meetup.com/Python-Milano/events/" class="btn btn-action btn-lg">Partecipa!</a>
-        </p>
-    </div>
-</div>
-
-<div class="jumbotron top-space">
-    <div class="container">
-
-        <h2 class="text-center thin">Unisciti al gruppo</h2>
-
-        <div class="row">
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-group fa-5"></i>
-                        <a href="http://www.meetup.com/it/Python-Milano/" class="btn-social btn-outline">Meetup</a>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>I nostri incontri si svolgono in modo molto informale, a volte in modalità "open forum" di circa
-                        un'ora e mezza.</p>
-                    <a href="http://www.meetup.com/it/Python-Milano/" class="btn-social btn-outline">http://www.meetup.com/it/Python-Milano/</a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-trello fa-5"></i>
-                        <a href="https://trello.com/b/0BEDDL3K/argomenti-incontri"
-                           class="btn-social btn-outline">Trello</a>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>Abbiamo una Trello Board dove si possono proporre e votare gli argomenti di discussione per il
-                        meetup.</p>
-                    <a href="https://trello.com/b/0BEDDL3K/argomenti-incontri" class="btn-social btn-outline">https://trello.com/b/0BEDDL3K/argomenti-incontri</a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-slack fa-5"></i>
-                        <script async defer src="https://pythonmilano.herokuapp.com/slackin.js?large"></script>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>Canale di comunicazione veloce per organizzare i meetup e anche per far quattro chiacchere.</p>
-                    <a href="https://pythonmilano.herokuapp.com/" class="btn-social btn-outline">Unisciti al gruppo!</a>
-		    <br/>(accedendo al gruppo si accettano le <a href="https://slack.com/terms-of-service">condizioni di utilizzo del servizio</a>)
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-twitter fa-5"></i>
-                        <a href="https://twitter.com/PythonMilano" class="btn-social btn-outline">Twitter</a>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>Tweets riguardo a Python e ai prossimi eventi/meetup.<br>
-                        Canale slack #pytweets.</p>
-                    <a href="https://twitter.com/PythonMilano" class="btn-social btn-outline">https://twitter.com/PythonMilano</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-github fa-5"></i>
-                        <a href="https://github.com/PythonMilano" class="btn-social btn-outline">GitHub</a>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>Pull Requests are welcome!</p>
-                    <a href="https://github.com/PythonMilano" class="btn-social btn-outline">https://github.com/PythonMilano</a>
-                </div>
-            </div>
-
-			<div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-facebook fa-5"></i>
-                        <a href="https://www.facebook.com/PythonMilano" class="btn-social btn-outline">Facebook</a>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>La nostra Facebook Page!</p>
-                    <a href="https://www.facebook.com/PythonMilano" class="btn-social btn-outline">https://www.facebook.com/PythonMilano</a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-google-plus fa-5"></i>
-                        <a href="https://plus.google.com/communities/107921004587688451958" class="btn-social btn-outline">Google+</a>
-                       <!-- Loading js library for G+ badge -->
-                       <!-- script src="https://apis.google.com/js/platform.js" async defer></script -->
-                       <!-- div class="g-follow" data-href="https://plus.google.com/communities/107921004587688451958" data-rel="author"></div -->
-                       <!-- g:community href="https://plus.google.com/communities/107921004587688451958"></g:communityi -->
-                       <!-- div class="g-community" data-href="https://plus.google.com/communities/107921004587688451958"></div -->
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>La community di Google plus di Python Milano</p>
-                    <a href="https://plus.google.com/communities/107921004587688451958" class="btn-social btn-outline">+pythonmilano</a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-trophy fa-5"></i>
-                        <a href="https://trello.com/b/fRkLUe9f/python-jobs"
-                          class="btn-social btn-outline">Python Jobs</a>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>Una Trello Board dove le aziende possono proporre offerte di lavoro, sponsorizzando uno dei nostri meeting. È possibile discutere le offerte di lavoro direttamente sul nostro canale slack.</p>
-                    <a href="https://trello.com/b/fRkLUe9f/python-jobs" class="btn-social btn-outline">https://trello.com/b/fRkLUe9f/python-jobs</a>
-		</div>
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-3 col-sm-6 highlight">
-                <div class="h-caption">
-                    <h4>
-                        <i class="fa fa-calendar fa-5"></i>
-                        <a href="http://milanotechscene.it/" class="btn-social btn-outline">Milano Tech Scene</a>
-                    </h4>
-                </div>
-                <div class="h-body text-center">
-                    <p>Il calendario di tutti i meetup, workshop ed eventi per developers, digital designers, devops e data scientists in un unico posto.</p>
-                    <a href="http://milanotechscene.it/" class="btn-social btn-outline">http://milanotechscene.it/</a>
-                </div>
-            </div>
-
-		</div>
-
-    </div>
-
-
-</div>
-
-<div class="container">
-
-    <h2 class="text-center">Supported by</h2>
-
-    <ul id="sponsor">
-        <li>
-            <a href="https://www.elastic.co/">
-                <img class="greyscale" src="assets/images/logo_elastic.png" alt="Elastic"/>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.jetbrains.com/">
-                <img class="greyscale" src="assets/images/logo_jetbrains.png" alt="JetBrains"/>
-            </a>
-        </li>
-        <li>
-            <a href="http://www.oreilly.com/pub/cpc/15823">
-                <img class="greyscale" src="http://www.oreilly.com/partner_file/ORM_logo_box75_hex.jpg" alt="O'Reilly"/>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.truelite.it/">
-                <img class="greyscale" src="assets/images/logo_truelite.png" alt="truelite"/>
-            </a>
-        </li>
-    </ul>
-
-</div>
-
-<footer id="footer" class="top-space">
-
-    <div class="footer2">
-        <div class="container">
+    <!-- Hero -->
+    <div class="wrapper style1 first">
+        <article class="container" id="top">
             <div class="row">
-                <div class="widget-body">
-                    <p class="text-right">
-                        Copyright &copy; 2015, Python Milano.<br>
-                        Design based on PROGRESSUS: free business bootstrap template by <a
-                            href="http://www.gettemplate.com/?utm_source=progressus&amp;utm_medium=template&amp;utm_campaign=progressus">GetTemplate</a>.
-                    </p>
+                <div class="4u 12u(mobile)">
+                    <span class="image fit"><img src="assets/img/pymi.png" alt="PyMi Logo"/></span>
+                </div>
+                <div class="8u 12u(mobile) description">
+                    <header>
+                        <h1><strong>PyMi - Python Milano</strong></h1>
+                    </header>
+                    <p>Sviluppatori, Sviluppatrici, Appassionati e Appassionate<br> di <a href="https://www.python.org">Python</a> a Milano</p>
+                    <i id="motto">...</i>
                 </div>
             </div>
-        </div>
+        </article>
     </div>
 
-</footer>
+    <!-- Next Meetup -->
+    <div class="wrapper style2">
+        <article id="next-meetup">
+            <header>
+                <h2> >>> Prossimo Meetup</h2>
+            </header>
+            <div class="container 75%">
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <div id="calendar">
+                            <div id="month">NA</div>
+                            <div id="day">NA</div>
+                        </div>
+                    </div>
+                    <div class="8u 12u(mobile)">
+                        <h3 id="topic">TBA</h3>
+                        <a id="meetup_link" href="https://www.meetup.com/Python-Milano/events/" class="button big scrolly">Partecipa!</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="assets/js/headroom.min.js"></script>
-<script src="assets/js/jQuery.headroom.min.js"></script>
-<script src="assets/js/template.js"></script>
-<script src="assets/js/motto.js"></script>
-<script src="assets/js/meetup.js"></script>
+    <!-- Work -->
+    <div class="wrapper style3">
+        <article id="links">
+            <header>
+                <h2>Unisciti a gruppo</h2>
+                <p>Chiunque è il benvenuto.</p>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <a href="http://www.meetup.com/it/Python-Milano/">
+                                <span class="icon featured fa-group"></span>
+                                <h3>Meetup</h3>
+                                <p>I nostri incontri si svolgono in modo molto informale, a volte in modalità "open forum",
+                                    durano circa un'ora e mezza e si ordina la pizza.</p>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <a href="https://pythonmilano.herokuapp.com/">
+                                <span class="icon featured fa-slack"></span>
+                                <h3>Slack</h3>
+                                <p>Canale di comunicazione veloce per organizzare i meetup e anche per far quattro chiacchiere.</p>
+                            </a>
+                            <span><strong>(accedendo al gruppo si accettano le <a href="https://slack.com/terms-of-service">condizioni di utilizzo del servizio</a>)</strong> </span>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <a href="https://trello.com/b/0BEDDL3K/argomenti-incontri">
+                                <span class="icon featured fa-trello"></span>
+                                <h3>Trello</h3>
+                                <p>Abbiamo una Trello Board dove si possono proporre e votare gli argomenti di discussione per
+                                    il meetup. Leggi la carta con le indicazioni su come fare!</p>
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <a href="https://twitter.com/PythonMilano">
+                                <span class="icon featured fa-twitter"></span>
+                                <h3>Twitter</h3>
+                                <p>Tweets riguardo a Python &amp; Friends e ai nostri incontri.</p>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <a href="https://github.com/PythonMilano">
+                                <span class="icon featured fa-github"></span>
+                                <h3>Github</h3>
+                                <p>Pull Requests are welcome!</p>
+                            </a>
+                        </section>
+                    </div>
+                    <div class="4u 12u(mobile)">
+                        <section class="box style1">
+                            <a href="https://www.facebook.com/PythonMilano">
+                                <span class="icon featured fa-facebook"></span>
+                                <h3>Facebook</h3>
+                                <p>La nostra Facebook Page!</p>
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- Supporter -->
+    <div class="wrapper style4">
+        <article id="sponsor" class="container">
+            <header>
+                <h2>Supported by</h2>
+            </header>
+            <div>
+                <ul class="sponsors-logo">
+                    <li><a href="https://www.jetbrains.com/" title="JetBrains"><img src="assets/img/logo_jetbrains.png"></a></li>
+                    <li><a href="https://www.elastic.co/" title="elastic"><img src="assets/img/logo_elastic.png"></a></li>
+                    <li><a href="http://www.codemotionworld.com/" title="Codemotion"><img src="assets/img/logo_codemotion.png"></a></li>
+                    <li><a href="https://www.pycon.it/" title="PyCon Italia"><img src="assets/img/logo_pyconit.png"></a></li>
+                    <li><a href="https://www.truelite.it/" title="Truelite Srl"><img src="assets/img/logo_truelite.png"></a></li>
+                    <li><a href="http://www.genropy.org/" title="Softwell, core team di GenroPy"><img src="assets/img/logo_softwell.png"></a></li>
+                    <li><a href="https://www.oreilly.com/" title="O'reilly"><img src="assets/img/logo_oreilly.png"></a></li>
+                    <li><a href="https://www.microsoft.com/" title="Microsoft"><img src="assets/img/logo_microsoft.png"></a></li>
+                    <li><a href="https://www.milanotechscene.it/" title="Milano Tech Scene"><img src="assets/img/logo_mts.png"></a></li>
+                </ul>
+            </div>
+        </article>
+    </div>
+
+    <div class="wrapper style5">
+        <article id="footer" class="container">
+            <div class="footer-wrapper">
+                <ul id="copyright">
+                    <li>PyMi &copy; 2013-2017</li>
+                    <li>Designed by Zanza00, based on <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>Logo by <a href="https://www.facebook.com/TU-VES-1442116032759831/">Giulia Treves</a></li>
+                </ul>
+            </div>
+        </article>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/meetup.js"></script>
 
 </body>
+
 </html>
