@@ -37,7 +37,7 @@ function get_event(payload) {
 	}
 	var obj = payload.query.results.json.slice(-1)[0].json;
 	var date = new Date(parseInt(obj.time));
-	var month = ['GENNAIO', 'FEBBRAIO', 'APRILE', 'MAGGIO', 'GIUGNO', 'LUGLIO', 'AGOSTO', 'SETTEMBRE', 'OTTOBRE', 'NOVEMBRE', 'DICEMBRE']
+	var month = ['GENNAIO', 'FEBBRAIO', 'MARZO', 'APRILE', 'MAGGIO', 'GIUGNO', 'LUGLIO', 'AGOSTO', 'SETTEMBRE', 'OTTOBRE', 'NOVEMBRE', 'DICEMBRE']
 	result = {
 		'topic': obj.name,
 		'day': date.getDate(),
