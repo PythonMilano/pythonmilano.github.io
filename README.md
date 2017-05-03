@@ -6,7 +6,7 @@ raggiungibile qui -> [pythonmilano.xyz](http://pythonmilano.xyz/)
 
 ## Contribuzioni
 
-il sito utilizza `node` per essere sviluppato, per contribuire è necessario averlo installato, versione almeno `6`
+il sito utilizza `node` per essere sviluppato, per contribuire è necessario averlo installato, versione almeno `6` (funziona anche con `yarn`)
 
 per ora utilizziamo solo `scss`, in futuro si vedrà :)
 
