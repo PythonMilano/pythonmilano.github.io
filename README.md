@@ -33,7 +33,7 @@ npm run build
 
 ## Credits
 
-* Logo: Giulia Treves
+* Logo: [Giulia Treves](https://www.facebook.com/TU-VES-1442116032759831/)
 * Sviluppo principale: [@zanza00](https://github.com/zanza00)
 * Sviluppi secondari: [@cstrap](https://github.com/cstrap)
 * Template based on _Miniport_ by [HTML5 UP](html5up.net) | [@ajlkn](aj@lkn.io)
