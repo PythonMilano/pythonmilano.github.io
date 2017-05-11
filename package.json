@@ -15,7 +15,7 @@
   "keywords": [],
   "author": "PyMi",
   "license": "MIT+CC-BY-3.0",
-  "homepage": "pythonmilano.xyz",
+  "homepage": "http://pythonmilano.xyz",
   "devDependencies": {
     "live-server": "^1.2.0",
     "node-sass": "^4.5.1"
