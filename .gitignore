@@ -58,5 +58,7 @@ target/
 
 # Other
 .idea/
+.vscode/
 
+# Node.js
 node_modules
