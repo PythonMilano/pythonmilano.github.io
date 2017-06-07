@@ -54,6 +54,15 @@
     })});
     </script>
 
+    <style>
+        [v-cloak] .v-cloak--load {
+            background: url(assets/img/ripple.gif) center center transparent no-repeat;
+            height: 13em;
+        }   
+        [v-cloak] .v-cloak--hide {
+            display: none;
+        } 
+    </style>
 </head>
 
 <body>
@@ -88,21 +97,21 @@
 
     <!-- Next Meetup -->
     <div class="wrapper style2">
-        <article id="next-meetup">
+        <article id="next-meetup" v-cloak>
             <header>
                 <h2> >>> Prossimo Meetup</h2>
             </header>
-            <div class="container 75%">
-                <div class="row">
+            <div class="container 75% v-cloak--load">
+                <div class="row v-cloak--hide">
                     <div class="4u 12u(mobile)">
                         <div id="calendar">
-                            <div id="month">NA</div>
-                            <div id="day">NA</div>
+                            <div id="month">{{meetup.month}}</div>
+                            <div id="day">{{meetup.day}}</div>
                         </div>
                     </div>
                     <div class="8u 12u(mobile)">
-                        <h3 id="topic">TBA</h3>
-                        <a id="meetup_link" href="https://www.meetup.com/Python-Milano/events/" class="button big scrolly">Partecipa!</a>
+                        <h3 id="topic">{{meetup.topic}}</h3>
+                        <a id="meetup_link" :href="meetup.link" class="button big scrolly">Partecipa!</a>
                     </div>
                 </div>
             </div>
@@ -225,7 +234,39 @@
     <!--[if lte IE 8]>
     <script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
-    <script src="http://pyql.herokuapp.com/meetup.js"></script>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/axios@0.12.0/dist/axios.min.js"></script>
+    
+    <script>
+        var data = axios.get('')
+        var app = new Vue({
+            el: '#next-meetup',
+            data: {
+                meetup: {},
+                errors: []
+            },
+            created: function () {
+                var app = this
+                axios.get('http://pyql.herokuapp.com/test.json')
+                    .then(function (response) {
+                        app.meetup = response.data
+                    })
+                    .catch(function (error) {
+                        app.meetup = {
+                            day: 'XX',
+                            month: 'XX',
+                            topic: 'TBA',
+                            link: '#'
+                        }
+                        app.errors.push(error)
+                    })
+            }
+        })
+
+
+    </script>
+
 </body>
 
 </html>
