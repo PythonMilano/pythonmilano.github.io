@@ -1,12 +1,12 @@
-# pythonmilano.xyz
+# milano.python.it (fu pythonmilano.xyz)
 
-il nostro sito!
+Il nostro sito!
 
-raggiungibile qui -> [pythonmilano.xyz](http://pythonmilano.xyz/)
+raggiungibile qui -> [milano.python.it](http://milano.python.it/)
 
 ## Contribuzioni
 
-il sito utilizza `node` per essere sviluppato, per contribuire è necessario averlo installato, versione almeno `6` (funziona anche con `yarn`)
+Il sito utilizza `node` per essere sviluppato, per contribuire è necessario averlo installato, versione almeno `6` (funziona anche con `yarn`)
 
 per ora utilizziamo solo `scss`, in futuro si vedrà :)
 
