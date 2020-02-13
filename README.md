@@ -2,11 +2,11 @@
 
 Il nostro sito!
 
-raggiungibile qui -> [milano.python.it](http://milano.python.it/)
+raggiungibile da qui -> [milano.python.it](http://milano.python.it/)
 
-## Contribuzioni
+## Come contribuire
 
-Il sito utilizza `node` per essere sviluppato, per contribuire è necessario averlo installato, versione almeno `6` (funziona anche con `yarn`)
+Il sito è sviluppato con `node`, per contribuire è necessario averlo installato, almeno la versione `6` (funziona anche con `yarn`)
 
 per ora utilizziamo solo `scss`, in futuro si vedrà :)
 
