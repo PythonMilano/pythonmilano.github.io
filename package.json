@@ -18,6 +18,6 @@
   "homepage": "http://pythonmilano.xyz",
   "devDependencies": {
     "live-server": "^1.2.0",
-    "node-sass": "^4.5.1"
+    "node-sass": "^4.13.1"
   }
 }
