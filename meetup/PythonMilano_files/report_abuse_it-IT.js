@@ -1,0 +1,1 @@
+require(['core/trn'], function(trn) {  }, undefined, true);
