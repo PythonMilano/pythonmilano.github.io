@@ -17,7 +17,7 @@
   "license": "MIT+CC-BY-3.0",
   "homepage": "http://pythonmilano.xyz",
   "devDependencies": {
-    "live-server": "^1.2.0",
-    "node-sass": "^4.13.1"
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.1"
   }
 }
