@@ -1,7 +1,7 @@
 {
   "name": "pythonmilano",
   "version": "2.0.0",
-  "description": "the site of pythonmilano.xyz",
+  "description": "The site of Python Milano",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
   "keywords": [],
   "author": "PyMi",
   "license": "MIT+CC-BY-3.0",
-  "homepage": "http://pythonmilano.xyz",
+  "homepage": "http://milano.python.it",
   "devDependencies": {
     "live-server": "^1.2.1",
     "node-sass": "^7.0.0"
