@@ -858,8 +858,8 @@ pause-stream@0.0.11:
     through "~2.3"
 
 picomatch@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.2.tgz#5a942915e26b372dc0f0e6753149a16e6b1c5601"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
